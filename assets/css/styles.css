@@ -897,7 +897,9 @@ img{
 }
 
 .project__img{
-    width: 100%;
+    width: 200px;;
+    justify-self: center;
+
 }
 
 /*=========================================================*/
@@ -1136,10 +1138,6 @@ img{
         padding: 0 .5rem;
     }
 
-    .project__img{
-        width: 200px;
-    }
-
     .testimonial__data,
     .testimonial__header{
         flex-direction: column;
@@ -1329,9 +1327,6 @@ img{
         column-gap: 3rem;
     }
 
-    .project__img{
-        width: 300px;
-    }
     .project__data{
         padding-top: 0.8rem;
     }
@@ -1373,7 +1368,7 @@ img{
     }
 
     .services__container{
-        grid-template-columns: repeat(3,238px);
+        grid-template-columns: repeat(2,1fr);
     }
 
     .portfolio__content{
